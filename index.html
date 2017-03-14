@@ -10,64 +10,69 @@
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
+		<link href="css/hover.css" rel="stylesheet" media="all">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
 
 	</head>
 	<body>
 		<div id="container">
-			<header class="clearfix">
+			<header class="clearfix" id="header_blog">
 				<div class="logo">
-					<h1>Relaxr</h1>
+					<h1><strong>Relaxr</strong></h1>
 				</div>
 				<div class="nav">
 					<ul>
-						<li><a href="">one</a></li>
-						<li><a href="">two</a></li>
-						<li><a href="">three</a></li>
-						<li><a href="">four</a></li>
-						<li><a href="">five</a></li>
+						<li><a href="">About</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">Team</a></li>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">Blog</a></li>
 					</ul>
 				</div>
 			</header>
 
-			<main>
+			<main class="clearfix">
 				<section class="newsfeed">
 					<div class="article">
-						<h1>Title of the article with a decent amount of words goes here</h1>
-						<img src="images/blog_photo1.jpg">
+						<h2>How I implemented Relaxr in 2 weeks and changed my life.</h2>
+						<img class="article_img" src="images/blog_photo1.jpg">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-						<a href="">Read more . . . ></a>
+						<a href="">Read more></a>
 					</div>
+					<hr>
 					<div class="article">
-						<h1>Title of the article with a decent amount of words goes here.  More stuff here to make it longer.</h1>
-						<img src="images/blog_photo2.jpg">
+						<h2>I traveled across the globe thanks to Relaxr’s Excel automation.</h2>
+						<img class="article_img" src="images/blog_photo2.jpg">
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						<a href="">Read more></a>
 					</div>
+					<hr>
 				</section>
 
 				<aside>
 					<div class="aside_content">
-						<h1>Title of List</h1>
+						<h3>Categories</h3>
 						<ul>
-							<li>Thing one</li>
-							<li>Thing two</li>
-							<li>Thing three</li>
-							<li>Thing four</li>
-							<li>Thing five</li>
+							<li>Success stories</li>
+							<li>Stats</li>
+							<li>How tos</li>
+							<li>Best of</li>
+							<li>Business tips</li>
 						</ul>
 					</div>
 					<div class="aside_content">
-						<h1>Title of content</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+						<h3>About Relaxr</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</br><a href="">Learn More</a>
 						</p>
 					</div>
 					<div class="aside_ad">
@@ -76,12 +81,19 @@
 				</aside>
 			</main>
 
-			<div class="cta clearfix">
-				<p>huh</p>
+			<div class="cta" class="clearfix">
+				<div class="button">
+					<a class="blue_button" href="">Sign Up Now!</a>
+				</div>
 			</div>
 
 			<footer>
-				&copy; Footer Goes Here
+				<h1>Relaxr</h1>
+				<div class="footer_columns">
+					<img src="images/twitter.png" class="twit">
+					<img src="images/facebook.png" class="face">
+				</div>
+				<p>&copy; 2017 Relaxr</p>
 			</footer>
 		</div><!-- #container -->
 	</body>
